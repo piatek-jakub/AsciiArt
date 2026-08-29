@@ -1,0 +1,40 @@
+# CMake Build Outputs (including Visual Studio CMake out directory)
+out/
+build/
+bin/
+lib/
+
+#cmake cache files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+#vs settings
+.vs/
+*.user
+*.suo
+*.userosv
+*.sln.docstates
+
+#vsc settings
+.vscode/
+
+#executables
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.obj
+*.o
+*.pdb
+*.ilk
+
+#generated ASCII text outputs
+output.txt
